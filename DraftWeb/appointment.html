@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+    <!--
+    CPSC 362 Software Engineering
+    Developers: Arun Sangar, Abraham Ludlam, Josh Marvel, TeviSophea Heng, Tony Dao
+    Project Manager / Developer: Phillip Ly
+    -->
+        <title>Daisu</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">    
+        <link rel="stylesheet" type="text/css" href="css/style.css">  
+    </head>
+
+    <body>
+        <!-- Following menu-->
+        <div class="uisegment" id="master-menu">
+		<body>
+	<div class="ui large top fixed secondary menu transition" id="menuBar">
+    <div class="ui container search">
+        <a href="index.html" class="header item">
+            <h2 class="ui header">
+                <img src="image/icon-user.png" class="menu-logo-image" alt="logo image">
+                Business
+            </h2>
+        </a>
+        
+
+       
+    </div>
+    <div class="ui container products">       
+        <div class="ui pointing dropdown link item">
+            <a href="Information.html" class="menu-popup">
+                <span class="text"> <b> Information </b> </span>
+                
+            </a>
+            
+        </div>
+
+        <div class="ui pointing dropdown link item">
+            <a href="samplepics.html" class="menu-popup">
+                <span class="text"> <b> Sample Pictures </b> </span>
+                
+            </a>
+            
+        </div>
+		<div class="ui pointing dropdown link item">
+        <a href="Aboutus.html" class="menu-popup"> <span class="text"> <b> About Us </b> </a>
+		 </div>
+		<div class="ui pointing dropdown link item">
+	
+        <a href="appointment.html" class="menu-popup"> <span class="text">  <b> Make an Appointment </b> </a>
+		 </div>
+        
+        
+    </div>
+</div>
+
+
+   <!-- Page Contents-->
+<div class="ui segment" id="thumbnail">
+</div>
+
+<div class="ui segment" id="thumbnail">
+    
+    <div class="ui attached segment">
+
+      <div class="ui segment container">
+        <h2 class="ui header" align="center">Make an Appointment</h2>
+        <div class="ui grid">
+            <div class="ten wide column">
+                <div class="ui segment">
+
+                    <form class="ui form">
+                          <h3 class="ui dividing header" align="center">Appointment Information</h3>
+
+                          
+                          <div class="fields">
+                            <div class="seven wide field">
+                              <label>Name</label>
+                              <input name="card[number]" maxlength="16" placeholder="" type="text">
+                            </div>
+                            
+                            <div class="six wide field">
+                              <label>Date</label>
+                              <div class="two fields">
+                                <div class="field">
+                                  <select class="ui fluid search dropdown" name="card[expire-month]">
+                                    <option value="">Month</option>
+                                    <option value="1">January</option>
+                                    <option value="2">February</option>
+                                    <option value="3">March</option>
+                                    <option value="4">April</option>
+                                    <option value="5">May</option>
+                                    <option value="6">June</option>
+                                    <option value="7">July</option>
+                                    <option value="8">August</option>
+                                    <option value="9">September</option>
+                                    <option value="10">October</option>
+                                    <option value="11">November</option>
+                                    <option value="12">December</option>
+                                  </select>
+                                </div>
+                                <div class="field">
+                                  <input name="card[expire-year]" maxlength="2" placeholder="Day" type="text">
+                                </div>
+                              </div>
+                            </div>
+                          </div>                         
+
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="six wide column">     
+                    <div class="ui segment">
+                         <form class="ui form">
+                              <h3 class="ui dividing header" align="center">Submit Appointment</h3>
+                                    <div class="field">
+
+                                    </div>
+                                    
+
+
+                                      <div class="three wide column">
+                                            <a href="orderConfirm.html" class="ui fluid labeled icon button" id="continueButton"> 
+                                                <h3>Confirm </h3>
+                                            </a>      
+                                     </div>
+
+                          </form>
+                    
+                    </div>
+                </div>
+
+                    </div>
+
+                 </form>               
+                </div>
+            </div>    
+
+
+            </div>
+        </div>
+
+    </div>   
+</div>
+
+
+
+        <!-- footer -->
+        <footer>
+            <div class="ui inverted vertical footer segment">
+                <div class="ui container">
+                    <div class="ui stackable inverted divided equal height stackable grid">
+                        <div class="three wide column">
+                            <a href="Information.html" > <h4 class="ui inverted hedaer">Information</h4> </a>
+                            
+                        </div>
+                        <div class="three wide column">
+                            <a href="samplepics.html" ><h4 class="ui inverted hedaer">Sample Pictures</h4> </a>
+                            
+                        </div>
+                        <div class="three wide column">
+                            <a href="Aboutus.html" > <h4 class="ui inverted hedaer">About Us</h4> </a>
+                            
+                        </div>
+						<div class="three wide column">
+                            <a href="appointment.html" > <h4 class="ui inverted hedaer">Make an Appointment</h4> </a>
+                            
+                        </div>
+                        
+						<div class="one wide column">
+                            <a href="index.html" class="header item"><img src="image/icon-user.png" class="footer-logo-image" alt="logo image"> </a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </footer>
+
+
+        <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+        <script src="semantic/dist/semantic.min.js"></script> 
+        <script src="javascript/menu.js"></script>
+        <script src="javascript/home.js"></script>
+    
+    </body>
+</html>
